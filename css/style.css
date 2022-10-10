@@ -501,7 +501,7 @@ html {
 body {
   width: 100%;
   background-color: #121212;
-   hieght: 100vh;
+   height: 100vh;
 }
 body._lock {
   overflow: hidden;
@@ -649,7 +649,7 @@ body._lock {
 
 
 .section{
-  overflow: hidden;
+  overflow: cover;
 }
 .section__body{
   width: 50%;
@@ -675,6 +675,8 @@ body._lock {
     top: 0;
     padding:  0 0 0;
     z-index: -1;
+    height:100vh;
+     object-fit: cover;
   }
 
   .section__img img{
